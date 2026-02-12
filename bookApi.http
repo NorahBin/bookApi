@@ -17,23 +17,22 @@ Accept: application/json
 POST {{rootURL}}/api/books
 Content-Type: application/json
 {
-  "id": 8,
   "title": "Norahs book",
   "author": "Norah",
-  "yearpublished": 1929
+  "yearPublished": 1929
 }
 
 ###
 
-PUT {{rootURL}}/api/books/5
+PUT {{rootURL}}/api/books/6
 Content-Type: application/json
 {
-  "id": 5,
+  "id": 6,
   "title": "Updated book",
   "author": "Updated author",
-  "yearpublished": 2020
+  "yearPublished": 2020
 }
 
 ###
 
-DELETE {{rootURL}}/api/books/3
+DELETE {{rootURL}}/api/books/6
